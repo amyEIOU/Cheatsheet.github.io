@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  background: #e9e7e7;
+}
+.toolbar {
+  background: #000;
+  color: #55f3e3;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: right;
+}
+ul {
+  margin: auto;
+  color: #55f3e3;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 40px;
+  margin: 0 50px;
+  color: #55f3e3;
+}
+.topPage:link {
+  text-decoration: none;
+  color: #55f3e3;
+}
+.topPage:visited {
+  text-decoration: none;
+  color: #55f3e3;
+}
+.topPage:hover {
+  text-decoration: none;
+  font-size: 21px;
+  color: #55f3e3;
+}
+.topPage:active {
+  text-decoration: none;
+  color: #55f3e3;
+}
+.headBanner {
+  background-image: url("../images/laptop.jpeg");
+  text-align: center;
+  padding: 80px;
+  margin: 0;
+}
+.img {
+  display: block;
+  margin: 0 auto;
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 100px;
+  font-weight: 700;
+  color: #e73d10;
+}
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #000;
+  color: #f05e39;
+  margin: 40px auto 30px auto;
+  padding: 25px;
+}
+p {
+  margin: 40px 100px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+  letter-spacing: 1px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 15px;
+  margin: 10px 100px;
+}
+
+td,
+th {
+  border: 1px solid green;
+  padding: 10px 20px;
+}
+
+th {
+  background-color: blue;
+}
+
+td {
+  text-align: left;
+}
+.moreInfo {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+footer {
+  background: #000;
+  font-family: monospace;
+  color: #f2eaea80;
+  text-align: center;
+  font-size: 18px;
+}

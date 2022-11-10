@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Basics</title>
+    <link href="resources\css\index.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="toolbar" id="toolbar">
+      <nav>
+        <ul>
+          <li><a href="#what" class="topPage">What is HTML?</a></li>
+          <li><a href="#common" class="topPage">Common Elements</a></li>
+          <li><a href="#attributes" class="topPage">Attributes</a></li>
+          <li><a href="#about" class="topPage">About</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="headBanner">
+      <h1>HTML Basics</h1>
+    </div>
+    <main>
+      <section class="basics" id="what">
+        <h2>What is HTML?</h2>
+        <p>
+          HTML or "HyperTextMarkup Language" is used to give content to a
+          webpage and instructs web browsers on how to structure that content.
+          <br />
+          <br />
+          An HTML element is a piece of content in an HTML document and uses the
+          following syntax: opening tag + content + closing tag. In the code
+          provided.
+        </p>
+        <img
+          src="resources\images\elementMainParts.png"
+          class="img"
+          width="400px"
+        />
+      </section>
+      <section class="basics" id="common">
+        <h2>Common HTML Elements</h2>
+        <table>
+          <tr>
+            <th>HTML Element</th>
+            <th>Tag</th>
+            <th>Use</th>
+          </tr>
+          <tr>
+            <td>Headings</td>
+            <td>&lt;h1&gt;-&lt;h6&gt;</td>
+            <td>
+              Allows you to specify that certain parts of your content are
+              headings
+            </td>
+          </tr>
+          <tr>
+            <td>Paragraph</td>
+            <td>&lt;p&gt;</td>
+            <td>Contains paragraphs of the text.</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Lists</td>
+            <td>&lt;ul&gt;</td>
+            <td>
+              Unordered list - the order of the list item or &lt;li&gt; does NOT
+              matter.
+            </td>
+          </tr>
+          <tr>
+            <td>&lt;ol&gt;</td>
+            <td>
+              Ordered list - the order of the list item or &lt;li&gt; DOES
+              matter.
+            </td>
+          </tr>
+          <tr>
+            <td>Div</td>
+            <td>&lt;div&gt;</td>
+            <td>
+              A container that divides an HTML document into sections. Can
+              contain flow content such as headings, paragraphs, links, images,
+              etc.
+            </td>
+          </tr>
+          <tr>
+            <td>Span</td>
+            <td>&lt;span&gt;</td>
+            <td>
+              An inline container for text and can be used to group text for
+              styling purposes.
+            </td>
+          </tr>
+          <tr>
+            <td>Images</td>
+            <td>&lt;img&gt;</td>
+            <td>
+              Contains images in the document. The
+              <strong>src</strong> attribute is mandatory and contains the image
+              URL. Does NOT have a closing tag.
+            </td>
+          </tr>
+          <tr>
+            <td>Line Break</td>
+            <td>&lt;br&gt;</td>
+            <td>
+              Will create a line break in the text. Does NOT have a closing tag.
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2">Anchor</td>
+            <td rowspan="2">&lt;a&gt;</td>
+            <td>
+              An anchor element can make the text it encloses into a hyperlink;
+              it consists of a hyperlink and the clickable text. Anchors can
+              take a number of attributes, such as href, target, alt
+            </td>
+          </tr>
+          <tr>
+            <td>
+              href or Hypertext Reference indicates a relationship between
+              pages. &lt;a href="www.google.com" target="_blank"
+              alt=Google.com&gt;Google&lt;/a&gt;
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class="basics" id="attributes">
+        <h2>HTML Attributes</h2>
+        <p>
+          Elements can also have attributes. They contain extra information in
+          the opening tag that won't appear in the contents. It may also
+          configure or change the element's default behavior.
+        </p>
+        <img src="resources\images\attribute.png" class="img" width="600px" />
+        <p>
+          An attribute should have: a space between the element and the name,
+          the attribute name followed by an "=", and an attribute value wrapped
+          in quotes.
+          <strong
+            >Always include quotes, as it results in more readable code.</strong
+          >
+          Single or double quotes is simply a matter of style.
+          <br />
+          <br />
+          Different types of attributes include
+          <strong>src, class, id, href, target, alt</strong>.
+        </p>
+      </section>
+      <p class="moreInfo">
+        For more information visit
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Learn/HTML"
+          target="_blank"
+          >Developer.Mozilla.org</a
+        >
+      </p>
+    </main>
+    <footer id="about">This page was created by AmyEIOU</footer>
+  </body>
+</html>
